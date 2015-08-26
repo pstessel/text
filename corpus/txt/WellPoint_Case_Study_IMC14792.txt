@@ -1,0 +1,89 @@
+IBM Software                                    Healthcare
+IBM Watson
+
+                                                WellPoint, Inc.
+
+                                                IBM Watson platform enables more effective healthcare
+                                                preapproval decisions using evidence-based learning
+
+  Overview                                      WellPoint, Inc. is an Indianapolis-based health benefits company. It has
+                                                approximately 37 million health plan members and processes more than
+   Increasing data volumes                      550 million claims per year. With medical information doubling every
+   Wellpoint needed to accelerate processing 	  five years, WellPoint saw an opportunity to apply the groundbreaking
+   of physicians’ treatment requests, save      capabilities of IBM Watson™ in a way that could improve the quality
+   members’ time and improve efficiencies 	     and efficiency of healthcare decisions.
+   in the approval process.
+                                                Challenge
+   Support for decision-making
+   The IBM® Watson platform uses                According to the Institute of Medicine, 30 percent of the USD2.3 trillion
+   hypothesis generation and evidence-based     dollars spent on healthcare in the United States annually is wasted.
+   learning to generate confidence-scored       While there are many factors contributing to this statistic, one step
+   recommendations that help nurses make        toward reducing waste is improving the utilization management (UM)
+   decisions about utilization management.      process, which governs the preapproval of healthcare insurance coverage
+                                                for many medical procedures. Improving response time, accuracy and
+   Accelerated processes                        consistency in the UM review process has been a goal of the entire industry.
+   The Watson platform helps UM nurses          Attaining this goal is challenging, in part because of the volume of data that
+   make faster UM decisions about treatment     is analyzed in making UM decisions. When WellPoint’s affected health
+   requests, which will help accelerate         plans were looking for ways to enable providers to make healthcare
+   pre-approval processes.                      decisions more quickly and consistently, WellPoint picked UM as
+                                                a starting point. Its goals were to accelerate processing of physicians’
+  Solution Components                           treatment requests, save members’ time and improve efficiencies in
+                                                the approval process, while continuing to base UM decisions on
+   Software                                     medical evidence and clinical practice guidelines.
+•	 WellPoint Interactive Care Guide and
+                                                Solution
+   Interactive Care Reviewer, powered by
+   IBM® WatsonTM                                WellPoint teamed up with IBM on a new approach to UM: using the
+                                                cognitive system IBM Watson to provide approval suggestions to nursing
+                                                staff based on clinical and patient data. WellPoint trained Watson with
+                                                25,000 historical cases. Now Watson uses hypothesis generation and
+                                                evidence-based learning to generate confidence-scored recommendations
+                                                that help nurses make decisions about utilization management.
+The new system provides responses to all requests in seconds, as opposed      © Copyright IBM Corporation 2014
+to 72 hours for urgent pre-authorization and three to five days for elective  IBM Corporation
+procedures with the previous UM process.                                      Software Group
+                                                                              Route 100
+Natural language processing leverages unstructured data, such as text-based   Somers, NY 10589
+treatment requests. Eighty percent of the world’s total data is unstructured  Produced in the United States of America
+according to IDC, and using traditional computing to handle it would          June 2014
+consume a great deal of time and resources in the UM process. The project     IBM, the IBM logo, ibm.com, and IBM Watson are trademarks
+also takes an early step into cognitive systems by enabling Watson to         of International Business Machines Corp., registered in many
+co-evolve with treatment guidelines, policies and medical best practices.     jurisdictions worldwide. Other product and service names
+The system has the ability to improve iteratively as payers and providers     might be trademarks of IBM or other companies. A current
+use it.                                                                       list of IBM trademarks is available on the web at “Copyright
+                                                                              and trademark information” at:
+“An extraordinary power of Watson is the ability to quickly analyze vast      www.ibm.com/legal/copytrade.shtml.
+amounts of up-to-date scientific and clinical research and patient data,      This document is current as of the initial date of publication
+extracting the most relevant and personalized information to inform           and may be changed by IBM at any time. Not all offerings
+and assist decision-making,” explains Dr. Sam Nussbaum, WellPoint             are available in every country in which IBM operates.
+chief medical officer.                                                        THE INFORMATION IN THIS DOCUMENT IS
+                                                                              PROVIDED “AS IS” WITHOUT ANY WARRANTY,
+The project started with a pilot in which WellPoint used Watson.              EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY
+The system was put into live healthcare production environment in             WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+December 2012. It currently handles 70 percent of outpatient requests         A PARTICULAR PURPOSE AND ANY WARRANTY OR
+across WellPoint’s mid-west affiliates. Today, 15,835 healthcare provider     CONDITION OF NON-INFRINGEMENT. IBM products
+offices use the system.                                                       are warranted according to the terms and conditions of the
+                                                                              agreements under which they are provided.
+Benefits
+                                                                                         Please Recycle
+•	 Helps UM nurses make faster UM decisions about treatment requests
+•	 Could accelerate healthcare preapprovals, which can be critical when
+
+  treatments are time-sensitive
+•	 Includes unstructured data in the streamlined decision process
+
+For more information
+
+To learn more about IBM Watson, please contact your IBM representative
+or IBM Business Partner, or visit the following website:
+ibm.com/watson
+
+“We know Watson makes us more efficient and is
+ helping us turn around requests faster. It also
+ ensures we are consistent in our application of
+ medical policies and guidelines.”
+
+  — Elizabeth Bingham, vice president of health IT strategy, WellPoint, Inc.
+
+                                                                              IMC14792-USEN-00
+

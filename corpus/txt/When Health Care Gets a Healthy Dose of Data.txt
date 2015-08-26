@@ -1,0 +1,788 @@
+ CASE
+STUDY
+
+            DATA & ANALYTICS CASE STUDY SERIES
+
+           When Health
+           Care Gets a
+           Healthy Dose
+           of Data
+
+           How Intermountain Healthcare
+           is using data and analytics to
+           transform patient care
+
+            By Michael Fitzgerald
+
+                                 Made possible by exclusive
+                                 Global Insights case study sponsor:
+
+JUNE 2015  REPRINT NUMBER 57180
+AUTHOR
+MICHAEL FITZGERALD is a contributing editor at
+MIT Sloan Management Review.
+
+Copyright © MIT, 2015. All rights reserved.
+Get more on data & analytics from MIT Sloan Management Review:
+Read the report online at http://sloanreview.mit.edu/case-study/intermountain
+Visit our site at http://sloanreview.mit.edu/data-analytics
+Get the free data & analytics enewsletter at http://sloanreview.mit.edu/enews-analytics
+Contact us to get permission to distribute or copy this report at smr-help@mit.edu or 877-727-7170
+CONTENTS
+
+          CASE
+          STUDY
+
+          JUNE 2015
+
+  3 / Introduction
+
+  6 / An Appointment
+     With Clinical Programs
+
+11 / A New Record System
+
+15 / Commentary: ‘No Pain, No
+      Gain’ in the Transition to
+      Data-Driven Health Care
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 
+                                                                                                                 CASE STUDY
+
+When Health
+Care Gets a
+Healthy Dose
+of Data
+
+TIntroduction
+                     he views of Utah’s Wasatch Mountains are spectacular from the east side of
+                     Intermountain Medical Center, but as 40-year-old Lee Pierce walked down
+                     a hallway on the fifth floor of the hospital’s administrative building, he hardly
+                     noticed them. Pierce, Intermountain’s chief data officer (CDO), was more
+                     focused on the giant countdown clock the implementation team had put up in
+                     the corridor. The clock was approaching zero, which marked the moment in
+February 2015 when Intermountain Healthcare would switch on its new electronic health records
+(EHR) system in two of its 22 hospitals and 24 of its 185 clinics.
+Pierce was hardly the only health care executive concerned about a major EHR installation.
+Indeed, a year earlier, a key provision of the American Recovery and Reinvestment Act of 20091
+went into effect, mandating that all health care providers adopt and demonstrate “meaningful
+use” of EHR systems to maintain their Medicaid and Medicare reimbursement levels.2 But while
+others scrambled to meet the deadline, Intermountain executives were thinking past it — because
+Intermountain was replacing an EHR system, not installing its first one.
+In fact, Intermountain had created its own EHR system in the 1970s, helping the not-for-profit hos-
+pital develop a reputation as an innovator in evidence-based medicine. But that system had aged: It
+
+  WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 3
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+                           had become incompatible with new forms of input,          There were concerns, however, about whether phy-
+                           like speech and data from wearable devices, and it        sicians were ready and willing to make a speedy
+                           was cumbersome and challenging for the nurses and         transition to the new system. They had had only oc-
+                           physicians using it to navigate the antiquated inter­     casional interaction with the old system used in the
+                           face to document and retrieve patient information.        hospitals, which meant, on the one hand, that physi-
+                                                                                     cians were unfamiliar with its interface, and on the
+                           Over the years, clinicians had learned to work with       other, that they would have to integrate technology
+                           the system. It was part of a concerted effort to bring    into their approach to patient care in new ways.
+                           data-based insights to clinicians and managers across
+                           the Intermountain Healthcare organization. All clini-     Two months later, Pierce was at the Las Vegas airport
+                           cal programs had embedded analytics supp­ort teams;       returning from a data and analytics conference,
+                           procurement decisions were heavily influenced by          standing with one of the Intermountain physicians
+                           data and analytics; and patient interactions were con-    working on the rollout. “You know, they said we
+                           tinuously enhanced by data, from the application of       would be up and running and as efficient as before in
+                           population health analytics to analyses of patient self-  just a couple of weeks,” the physician commented.
+                           reports. A culture of data use was wides­ pread among     “Here we are, a couple of months in, and some people
+                           Intermountain’s clinicians and managers.                  are still not there. We should have set the expec­tation
+                                                                                     that it will take a few weeks to months,  depending on
+                           Even so, the switch to a new EHR system was ex-           the physician’s comfort using technology, the comp­
+                           pected to challenge Intermountain on two fronts: one      lexity of individual workflows, and frequency of use.”
+                           technological, the other organizational. This was
+                           Intermountain’s second effort to update the technol-      Pioneering Health Care Analytics
+                           ogy behind its EHR system. An earlier attempt had
+                           been abandoned in 2012. Executives pulled the plug        Computers barely existed when Intermountain
+                           on a six-year overhaul involving tens of millions of      began its quest to incorporate data analytics into
+                           dollars after deciding the technology was not going       its health care practices. In the 1950s, a cardiologist
+                           to work. This time, Intermountain leaders, including      named Homer Warner joined one of the hospitals
+                           Pierce, were confident they had the right technology      that eventually became part of the Intermountain
+                           and the right systems in place to move the data and       Healthcare organization. Shortly thereafter, he began
+                           information where it needed to go.                        gathering data to understand why some heart pa-
+                                                                                     tients had better outcomes than others. Warner
+ABOUT INTERMOUNTAIN HEALTHCARE                                                       would become known as the father of medical infor-
+                                                                                     matics — the use of computer programs to analyze
+Intermountain Healthcare runs 22 hospitals and 185 clinics in Utah                   patient data to determine treatment protocols —
+and Idaho. It employs more than 800 physicians. In 2014, it                          after he and some colleagues built a decision-support
+performed 150,000 surgeries and had 488,000 emergency room                           tool in 1968 called HELP (Health Evaluation through
+visits. It grew out of a system of 15 hospitals operated by the Church               Logical Processing).3 HELP was one of the first EHR
+of Jesus Christ of Latter-day Saints, which donated the hospitals to                 systems in the United States, and it provided doctors
+their communities in 1975. Intermountain was formed as a secular                     with diagnostic advice and treatment guidance. It
+operating company to oversee those hospitals. It also operates an                    was also effective in help­ing doctors identify the
+insurer, SelectHealth, which had 750,000 members and $1.83 billion                   causes of adverse drug reactions.
+in revenues in 2014. Overall, in 2014 Intermountain Healthcare had
+$5.57 billion in revenues and an operating surplus of $301 million.                  Years later, Warner recalled that using computers to
+                                                                                     model diagnoses was not — at first — well received;
+                                                                                     some cardiologists were even insulted by claims that
+
+4 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+a computer could make a diagnosis. Despite the re-       When we first started presenting data to physi-
+sistance, the system’s benefits began showing up in      cians about their own performance and how they
+improved patient outcomes, and HELP became a             were doing, most physicians, especially if they
+key component in Intermountain’s approach to pa-         were not performing as well as they feel like they
+tient care. The innovation attracted attention from      ought to be, have two comments. One is, “Well,
+all over the world.4 In 1985, Intermountain began        the data really aren’t accurate. There are problems
+using the HELP system in all of its hospitals. Ad-       with the data.” And the second is, “I have sicker
+ministrators saw an opportunity to put data-driven       patients than my colleagues.” And you hear those
+decision making at the forefront of the organization.    two things over and over again.
+
+But it wasn’t easy.                                      We allow and actually encourage physicians to
+                                                         question the integrity of the data. If it’s a dataset
+Delivering an Analytics Culture                          around their own performance, we show them
+                                                         the names of the patients from whom the data
+Over the next dozen years, Intermountain expanded        was derived, and they can look at it and say, “Well,
+its use of data-driven decision-support tools. In        this isn’t my patient. This one really sees my part-
+1986, Intermountain hired Brent James, a physician       ner.” And then we’ll take it out of their dataset. Or
+with a master’s degree in statistics, to champion qual-  if they look at it and say, “You know, I just really
+ity-improvement principles and initiatives across the    don’t believe that this case costs this much money.
+organization. One early challenge was that expen-        I want to get in and see what were the contributing
+sive information technologies, such as data storage,     factors and challenge that. Have we really col-
+were still improving, making the premise that large      lected that accurately?”
+invest­ments in data technology would improve care
+and lower costs somewhat risky. “It was really a deci-   And over time, many of our physicians who have
+sion made on faith at first, that if we invested in the  been involved in this process iteratively have be-
+systems, we would see results,” says Brent Wallace,      come pretty comfortable that the data we provide
+chief medical officer (CMO) for the organization.        are accurate and okay. But they still know they
+                                                         have the capability to challenge it, if that is needed.
+
+James focused on improving data quality and data-        Intermountain’s team-driven culture applies gentle
+gathering techniques. As Mark Ott, chief of surgery      peer pressure, extolling doctors or teams that have
+at Intermountain, says, “I never want to give data to    excellent results and encouraging others to take the
+doctors that I can’t defend. Because once you’ve got     same steps. Administrators in the surgical unit, for
+bad data, it takes months to recover that level of       instance, show physicians how they are performing
+trust. The single most important thing is the integ-     relative to their peers because they believe surgeons
+rity of the data.” James adds that there needs to be     are competitive and want their names at the top of the
+a constant focus on data gathering, painstakingly        board. This collegial approach comes in part bec­ ause
+mundane work that almost no one takes to naturally.      only a third of the company’s doctors work directly
+“You have to have a data zealot who goes around and      for Intermountain. Another third work for affiliated
+grabs teams and pulls them into line,” James says.       medical practices, and the rest are independent and
+                                                         only occasionally interact with Intermountain. The
+Helping physicians become comfortable with data          system needs them all to contribute data that is as com-
+became an important part of Intermountain’s ap-          plete as possible, so that data quality doesn’t degrade.
+proach to developing a data-oriented culture. A key
+facet of this approach was being as transparent as       In 1999, at the height of the Internet boom, Interm­
+possible about data quality, CMO Wallace recalls:        ountain experienced something of an organi­zational
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 5
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+epiphany when it discovered the power of data                                 As data analytics spread among Intermountain’s
+analytics to affect population health. That year, the                         clinical care settings during the 2000s, the cost
+American College of Obstetricians and Gynecolo-                               of gathering and storing data decreased rapidly,
+gists recommended that doctors stop choosing to                               enabling more access to analytics. But the main
+induce labor before the 39th week of pregnancy, be-                           reason analytics spread was not the cost of the tech­
+cause medical research showed that early induction                            nology but the results, how good the analytics were
+carried significant risks for babies and mothers.                             at helping patients.
+
+The hospital’s labor-and-delivery committee sug­                              An Appointment
+ge­­ sted that doctors should investigate the hospital’s                      With Clinical
+elective induction rate. “We don’t have that prob-                            Programs
+lem here,” came the response from a majority of the
+obstetricians. The data said otherwise. In fact, 28%                          Intermountain has set up multiple touch points for cli-
+of Intermountain’s deliveries were elective pre­term                          nicians to access the data they need, or the data they
+in­ductions, on par with the national average.  Inter­­­­                     want. Most of its 10 clinical programs, whether big
+mountain urged its doctors to think twice about                               ones like women’s and newborn and cardiovascular, or
+per­f­ orming them, but moving away from elective in­                         small specialty services like ear, nose, and throat, have
+ductions was a bumpy process. With most deliveries’                           their own data team, as does the clinical services group
+timing now left to Mother Nature, many obstetricians                          (pharmacy, imaging and radiology, nursing, physical
+had to get used to being on call again or working at odd                      therapy). Each data team consists of three people: a
+hours. But eventually they accepted the changes in pro-                       data manager who makes sure data is being collected
+cedure, and by 2001, elective preterm inductions had                          correctly, a data analyst to flag important trends, and
+fallen to less than 2% of all cases.                                          a data architect who pulls together data from vari-
+                                                                              ous sources inside and outside Intermountain. The
+Hard work followed this organizational epiphany,                              data manager and data analyst are embedded in the
+as the organization spent years creating a common                             clinical team’s staff and report to the clinical program’s
+language for data across departments and hospitals.                           operations manager. The data architects are based in
+Colleen Roberts, who switched from being a nurse                              a centralized IT department and report to managers
+to a data manager in 2002 after earning a master’s de-                        who report to CDO Pierce. In addition, Intermountain
+gree in medical informatics, began building out data                          has 240 data analysts spread throughout its facilities, as
+dictionaries. “Everybody knew that Emergent meant                             well as 70 researchers in the Homer Warner Center for
+this, and Urgent meant this, but there weren’t clear                          Informatics Research, formed in 2011. A few of those
+definitions for every data element,” says Roberts. It                         report into Pierce’s group; the rest are involved in re-
+took regular meetings with practicing clinicians to                           search projects.
+hammer out definitions that ultimately enabled In-
+termountain, for the first time, to directly compare
+hospitals and departments on a wide range of met-
+rics. Over the last decade, the use of data has become
+completely ingrained in the culture, she says.
+
+Today, “we never do a project or care initiative that                         In addition, the clinical programs’ operations direc-
+we don’t first run baseline data to see where we were.                        tors spend part of their time ensuring that data is
+And post implementation, we run data to see if we’ve                          being gathered properly on the clinical side. There
+shown improvement,” says Roberts, now director                                are even data abstracters — nurses assigned to gather
+of operations for Intermountain’s cardiovascular                              data in the operating rooms and other locations — in
+clinical care unit.                                                           part because Intermountain participates in a variety
+
+6 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+of national programs where hospitals contribute in-     suddenly become completely blocked — die within
+formation on various procedures, which can require      30 days. Better outcomes are achieved when patients
+collecting more than a thousand points of data for      receive rapid intervention to unblock the artery. The
+some procedures.                                        national standard is 90 minutes for what’s called
+                                                        “door-to-balloon time,” which represents the amount
+Any Intermountain employee can make formal or           of time from the moment the patient enters the hospi-
+informal requests for analytics support. Pierce notes   tal to relief of the blockage via a balloon inflated within
+that with 240 data analysts spread throughout the       the blocked artery. Beating that national average of
+organization, many requests are made informally.        door-to-balloon time would mean more lives saved.
+They’re water-cooler conversations or brief email
+exchanges along the lines of, “What does the data       To work toward that goal, in 2011 Intermountain’s
+say about this kind of treatment?” Intermountain        cardiology leadership began working with STEMI
+encourages this informal activity, though its analysts  teams to set internal time standards and measure re-
+must make formally approved queries a priority.         sults. Every time a heart attack patient was treated,
+                                                        the data on the operation was circulated to the whole
+Formal requests for analytics are processed through     team within a few days, a process known as rapid
+the internal Web portal. These requests include esti-   process improvement. This feedback loop helped
+mates of the likely time needed from data analysts,     Intermountain reduce the median door-to-balloon
+managers, and architects. If the combined time for      time to 57 minutes. In the last three years, all STEMI
+the request is projected to exceed 40 hours, it must    patients at Intermountain have gone door-to-balloon
+be approved and given a priority assessment at the      in less than 90 minutes. Intermountain’s rate of
+monthly meeting of an information management            STEMI patient survival beyond 30 days is now at
+council, chaired by Pierce, which handles analytics     96%. “That was purely data-driven — and without
+and data governance.                                    the data, we’d have no clue what was going on,” says
+                                                        Don Lappé, the chief of cardiology at Intermountain.
+Cardiovascular
+                                                        Another example: The cardiovascular surgical team
+The cardiovascular practice, where Warner started       evaluated published research findings that suggested
+the use of analytics, has expanded its use of analyt-   that blood sugar management helped heart patients
+ics to support patient care not only through decision   after operations. Since surgery and anesthesia in-
+making but also at the policy level. Intermountain      crease stress levels, which can cause spikes in blood
+used data to decide that it should, for instance, have  sugar levels, the team asked their data analyst to
+only four of its hospitals perform cardiovascular op-   build a query to examine average blood sugar levels
+erations (surgeries and catheterizations), because      before, during, and after surgery.5
+concentrating procedure volumes and maintaining
+implicit controls over conditions was the best way to   The analysis showed that patient blood sugar levels
+improve care and reduce costs. By concentrating ex-     reached between 300 and 400 mg/dL on average,
+pertise at each of the four hospitals, Intermountain    which was well above the average values of around
+increased response times for certain emergency pro-     90 to 160 mg/dL. A related query showed that Inter-
+cedures, for which speedy interventions are closely     mountain patients who went home without having
+connected to better health outcomes.                    their blood sugar managed had more health issues,
+                                                        including needing to be readmitted to a hospital,
+For example, on average about 15% of people who         than those who received blood sugar management.
+suffer ST-elevation myocardial infarctions (STEMI)
+— heart attacks that occur when coronary arteries       The cardiovascular surgical team evaluated research
+                                                        on the question with representatives from Inter-
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 7
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+mountain’s four open-heart surgery programs and                               Orthopedics
+asked them to think about how to manage blood
+sugar levels. One hospital started testing blood                              If there has been a data holdout at Intermountain, it
+sugar levels when patients were admitted, and put                             is orthopedics. It is effectively a self-contained de-
+patients with high baseline blood glucose levels —                            partment, in that orthopedic surgeries are usually
+even those who weren’t diabetic — on insulin. An                              one-time events, handled within an orthopedics
+anesthesiologist at one hospital devised a proce-                             group without a lot of patient follow-up except
+dure where he would infuse patients with glucose                              for physical therapy visits. The orthopedics prac-
+and then adjust their insulin levels; he found that                           tice does track short-term complications from
+this caused patient blood sugar levels to fall below                          procedures, such as infection rates, patient time out
+200. He shared the results with his colleagues, who                           of work, and how many patients need to return to
+adopted the same techniques. The result from these                            the operating room. There is a system used to collect
+efforts was a 50% drop in deaths after heart surgery                          physical therapy outcomes. The data from that sys-
+as well as a reduction in time in intensive care units                        tem suggests that some orthopedists’ patients seem
+and shorter overall stays.                                                    to recover more quickly, but data does not measure
+                                                                              patients’ progress over time. Data doesn’t show, for
+Endocrinology                                                                 instance, if full knee replacements create better long-
+                                                                              term results than partial knee replacements.
+
+In 2014, Intermountain published its analysis of                              Intermountain is evaluating different tools it can use
+diabetics and angiograms in The Journal of the                                to start to collect that data and use information to
+American Medical Association (JAMA).6 JAMA also                               better analyze the impact of orthopedics on patient
+published a commentary from a doctor at the Mayo                              lives. “What I’d love to see is when the patient hits
+Clinic arguing that what was really happening is that                         our system, wherever it is, a flag goes up and says ‘it’s
+Intermountain does such a good job caring for dia-                            been a year since this person had a knee replace-
+betics that they face no higher risk of heart disease                         ment; fill out the survey and give us some follow-up,’”
+than the general population.7                                                 says CMO Wallace. “That will trigger other care-re-
+                                                                              lated questions in the EHR. When you can put that
+In fact, information sharing has played an important                          kind of infor­mation in front of doctors, they’ll start
+role in how Intermountain providers manage blood                              saying, ‘Huh? I’ve always been able to be the Lone
+sugar levels within their population of diabetic pa-                          Ranger, maybe it does make sense to talk to folks rid-
+tients. The endocrinology data team analyzed which                            ing the range.’”
+diabetic patients from across the entire Intermoun-
+tain group had the lowest average blood sugar levels                          Surgery
+based on scores from a routine lab test. The practice
+team took this data and asked the doctors whose                               Intermountain’s chief of surgery, Mark Ott, gets re-
+patients had the best scores what they had done to                            ports on surgical infection rates every six months
+help their patients maintain their low levels. An-                            and is using that data to reduce infection rates in op-
+swers varied from using motivational tools to having                          erating rooms. When the data showed that surgical
+their assistants call the patient every three months.                         infection rates at the flagship hospital, Intermountain
+The analysis gave all of the doctors with diabetes pa-                        Medical Center, were in line with national norms,
+tients a way to connect their patients with the data by                       he presented the findings to the surgeons there. He
+showing patients their scores and correlating scores                          said, “You think you’re great, but compared to other
+with lifestyles. By doing so, the doctors were taking                         hospitals in the country, you’re not above average.”
+patient care, and analytics, outside the hospital.
+
+8 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+Intermountain uses a collaborative process to en-             ing. “Why is that?” Ott asks. He says the data from
+courage behavioral change. Regarding infections, a            the different venues show no difference in patient
+committee of clinicians spent a year developing a list        results, so he’s encouraging surgeons to rethink
+of 30 possible causes, then whittled it down to five          prescribing antibiotics.
+and made recommendations of changes that would
+address them. Ott sent out a note announcing the              EAR, NOSE, AND THROAT
+five recommendations, and got, he says, “a bunch of
+people complaining — the usual thing.” In particular,         In 2014, Intermountain began applying data analyt-
+they hated having to give up bringing personal items          ics to ear, nose, and throat surgeries, a subspecialty
+into the operating room, including fleece jackets they        service within the surgical services program. Wal-
+would wear to keep warm. “They literally hated that,”         lace had observed that surgeons used four different
+Ott says. “I would get calls all the time about how stu-      methods to cauterize, or seal off, bleeding during
+pid that is.” Ott himself had to quit wearing his Boston      tonsillectomies. Each method differs significantly
+Red Sox cap and instead cover his hair with dispos-           in price. Wallace says the question became: Was one
+able surgical caps. The doctors argued that there was         method better than the others in limiting bleeding
+no hard evidence that the recommendations would               and improving how patients fared? The data showed
+actually help. Ott agreed, but told them that in six to       that there were essentially no differences in compli-
+nine months he would have data — and if it didn’t             cations, length of stay, or hospital readmissions,
+show results, they could go back to the old ways.             says Wallace.
+
+In fact, infection rates fell to half the national standard.  In fact, the oldest (and cheapest) method, electro-
+When the doctors got the data, they were delighted.           cauterization, held a slight, though insignificant,
+But they also asked to relax the rules against personal       statistical edge. When the data was presented to the
+items in the OR. Ott held firm, saying that since it was      surgeons, they did not exactly embrace the find-
+not clear how much each of the five factors worked,           ings. “They said, ‘that’s all well and good, but — ’
+they needed to keep doing them all.                           especially for those that use the more expensive new
+                                                              stuff, ‘ — I think my patients do better, they feel bet-
+Ott also explained how data is being used to change           ter after surgery,’” Wallace says. So a follow-up survey
+the way Intermountain surgeons approach postop-               is underway, to collect more data on patient recov-
+erative care following gall bladder removals. Each            ery issues. In most cases, there are no dictators in the
+year, Intermountain performs thousands of gall                Intermountain process, says Ott. “We don’t tell the
+bladder removals. In 90% of cases patients receive            surgeons what to use. We say, ‘Here’s the data. You
+postoperative antibiotics whether or not they have            can use what you want.’”
+an infection. Ott believed that this standard practice
+of administering antibiotics was unnecessary. He              Care Process Models
+asked for a data analysis on the use of antibiotics after
+gall bladder removal. While antibiotics aren’t expen-         Intermountain’s doctors and nurses use dozens of
+sive, they still cost something. And if a patient has an      different data-based decision-support tools (also
+allergic reaction to the antibiotic, or develops a            known as care process models) to help them care
+drug-resistant C. difficile infection leading to colitis,     for patients. In the cardiovascular unit, for instance,
+treatment gets pricey. Ott found that the use rate var-       a tool runs every morning at 9:15 in all 22 of Inter-
+ied across the system; most hospitals used antibiotics        mountain’s hospitals, pulling readings from patients’
+at a near 100% rate, while ambulatory care facilities,        vital signs. It sends an email alert telling clinicians
+usually staffed by the same doctors, did not prescribe        which patients are at risk of heart failure, including
+them at all for the same gall bladder removal surgery.        assessments of their likelihood of being readmitted
+Same doctors, same operation, just a different build-
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 9
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+to the hospital once released, or of dying. That helps                         doctors, the supply chain managers had their work
+Intermountain adapt its care pathways and the way                              cut out for them. Perhaps the most significant chal-
+it handles patient care, accelerating the education                            lenge was finding a way to reduce expenses for
+process for these patients. It might mean assigning                            physician preference items (PPIs).These are the de-
+patients to palliative care or a hospice.                                      vices or supplies that doctors request because they
+                                                                               prefer them to comparable products. PPI suppliers
+These tools help track things humans might miss,                               worked hard to develop relationships with doctors
+says Kim Henrichsen, Intermountain’s chief nursing                             to create physician loyalty to their products. But
+officer. She says that over time, a patient’s vital signs                      PPIs could consume as much as 40% of a hospital’s
+can shift subtly, and tools built into the system analyze                      supply budget — and one study found nearly $5 bil-
+that data and will automatically send alerts to nurses                         lion in annual losses in the health care industry due
+to monitor patients or check specific vital signs.                             to PPI-driven waste in the supply chains.
+The algorithms also flag patients who appear to be
+at high risk for readmission based on previous data                            In 2014, Intermountain launched Intermountain
+patterns, and may lead to Intermountain assigning                              ProComp, a system designed to reduce costs by
+home care to help reduce the likelihood of readmis-                            tracking its 50 highest-volume procedures and pre-
+sion. Over time, the hospital has also developed                               senting information to surgeons on their supply
+monitoring tools for patients who have a single epi-                           options in real time.
+sode, like hip surgery, versus those with a chronic
+condition, like chronic heart failure.                                         Launching ProComp has led to significant cost re-
+                                                                               ductions. Ott’s data team dug through about a dozen
+Patients who have suffered heart failure are put                               different systems to figure out what various supplies
+on up to 14 different drugs, from aspirin to beta-                             cost. One thing they found was that some coronary
+blockers, after their release. Because of the number                           surgeons used sutures that cost $750, while others
+of medications, Intermountain developed a tool to                              used sutures that cost $250. The analytics revealed
+automatically create the list of medications heart                             no appreciable difference in patient outcomes. Ott
+failure patients need. CMO Wallace says this lets cli-                         presented the data to the surgeons. “They were fas-
+nicians spend their mental energy focusing on what                             cinated by that,” Ott says. “They had no idea that the
+is unique about the patient.                                                   things they were using cost so much.” Most of them
+                                                                               stopped using the more expensive sutures.
+Supply Chain
+                                                                               Sometimes, though, Ott had to attack the prob-
+Industry analysts predict that supply costs will ex-                           lem from the supplier side. In bowel surgeries,
+ceed hospitals’ top expense — labor — by 2020. The                             Intermountain surgeons use two kinds of end-to-
+challenge, they say, is that a lack of price transpar-                         end anastomotic staplers. One type of stapler cost
+ency and no system for sharing cost information                                $270, the other, $870. Doctors prefer the more ex-
+leaves doctors unaware of their supply costs or how                            pensive one; two-thirds of the surgeons use it, in fact.
+to reduce them by requesting equally effective but                             Ott says, “I’ve used them both. I don’t really think
+less expensive alternatives.8                                                  there’s a difference. But when I talk to my surgeons,
+                                                                               they are adamant that the more expensive product is
+At Intermountain, applying analytics to this chal-                             clearly better.”
+lenge started in earnest in 2005, when the company
+started a supply chain organization. With 12,000                               They felt that way even after Ott showed them data
+vendors, $1.3 billion in non-labor expenses, and                               that found the two staplers were equivalent. Surgeons
+a culture that ceded much purchasing authority to                              said patients’ bowels leaked more after they used the
+                                                                               cheaper stapler, which meant patients would get sick
+
+10 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+and need another operation. Or they said that it led to  But for all the benefits the data-centered care brings,
+more bleeding after the operation.                       it has been a struggle sometimes to pay for it. That
+                                                         change in elective inductions? It was a huge success
+Ott turned to his data analytics team, who pulled        for patients, but actually meant a revenue loss. In a
+170 cases from one of Intermountain’s hospitals and      value-based model, Intermountain would have been
+combined it with data from the American College of       rewarded for the better health outcomes.
+Surgeons’ National Surgical Quality Improvement
+Program. The data showed that leak rates for the two     That is a reason why Intermountain is eager to move
+staplers were the same, at about 5%, and the only major  to a value-based business model where it gets paid
+bleeding event involved the more expensive stapler.      for effectively caring for patients. In a value-based
+                                                         model, insurers will reward health care providers
+Ott went back to the surgeons, who acknowledged          that lower costs by sharing the cost savings. The
+the data but still wanted to use the expensive sta-      importance of value-based care to the future of U.S.
+pler. Ott didn’t force them to quit using it. Instead,   health care is reflected in the U.S. Department of
+he showed his data to the supplier. “I said, ‘either     Health and Human Services’ recent announcement
+you lower your price to the competitor price, or         that it will tie half of all Medicare provider payments
+we’re taking you off the shelf.’ And they immediately    to value-based models by the end of 2018. CDO
+lowered their price.” That one minor change saved        Pierce knows the effective use of data will be central
+Intermountain $235,000 a year. In its first year, Pro-   to making the shift to a new way of doing business.
+Comp cut $25 million from operating costs in its
+Surgical Services Clinical Program alone. It aims to     Intermountain’s new EHR is expected to play a piv-
+cut costs by $400 million by 2018.                       otal role in helping the organization make this shift.
+
+A New Record                                             iCentra
+System
+                                                         When selecting its new EHR, Intermountain placed
+According to the Organisation for Economic Co-op-        its interest in value-based health care at the fore-
+eration and Development, the United States spends,       front of its decision making. It selected Cerner, a
+onapercapitabasis,morethantwicetheaveragespent           large EHR vendor based in Kansas City, Missouri.
+by 34 industrialized nations on health care ($8,745      The executive team thought Cerner had the careful
+in 2012 compared to an average of $3,484), but gets      attention to the secondary use of data for back-end
+health results towards the bottom of the pack.9 Crit-    analytics in addition to an excellent clinical transac-
+ics have fastened on the U.S. fee structure as a big     tion system that could help clinicians make better
+part of the problem, arguing that the system is built    patient-care decisions. Intermountain’s configura-
+around paying for visits, tests, and procedures, many    tion of Cerner products is called iCentra.
+of which are unnecessary, some even harmful. This
+provides an incentive for providers to focus on          Once contracts were signed, Cerner set up shop in
+quantity of services over quality of care. Intermoun-    the offices next to the Intermountain Medical Center
+tain has seen this in action for more than 20 years.     and relocated some of its top development talent to
+It believes its use of data has improved quality and     Utah. Pierce meets regularly with his counterparts
+therefore saved lives — more than 1,000 to date.         at Cerner, which includes the occasional six-hour
+                                                         meeting to work through deployment strategies. He’s
+                                                         moved his office from the headquarters building
+                                                         to Intermountain Medical Center to be closer to the
+                                                         action but also because there were twists to the deal:
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 11
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+Intermountain wanted to retain its own data manage-                            Unwelcome Delays
+ment and analytic systems, resulting in the need for
+increased coordination between the organizations.                              No system implementation is without bumps, so
+                                                                               Pierce’s stomach didn’t exactly sink while standing
+In the 18 months since they started working together,                          there in the Las Vegas airport, talking to the physician
+the two companies have formed a close relationship.                            who said that expectations around the adaption of
+Intermountain is consulting with Cerner on a mas-                              the tools were too aggressive. Once Pierce was back in
+sive Pentagon contract bid, and the two companies                              Salt Lake City, he set up a conversation with Sameer
+are discussing creating new products built on Inter-                           Badlani, who joined Intermountain in October 2014
+mountain’s data management processes and its data                              as its first chief health information officer (CHIO).
+warehouse framework.                                                           The CHIO role was created to reflect that caring for
+                                                                               patients was going to expand beyond hospitals and
+The Rollout                                                                    clinics into people’s homes and communities.
+
+Intermountain has a standard three-phase approach                              “The common pushback is ‘I’m doing too much data
+to all of its technology rollouts. Implementation is the                       entry, spending less time with a patient,’” Badlani
+first phase, and includes all of the design, build, train-                     told Pierce. Some of this came because they knew
+ing, and “go-live” activities. To prepare for the go-live                      the old system better than the new. Some of it was
+phase, Intermountain combined a mix of supports                                that in the new system, doctors really did need to
+that included classroom training, one-on-one coach-                            spend more time inputting data, which they hadn’t
+ing sessions, group simulations, super-user experts,                           done a lot of before. And some of it was expectations.
+physician coaches, and a telephone support help desk                           “They expect to be facile in a matter of two weeks,
+that now has the ability to remotely access the user’s                         and it just doesn’t work that way,” Badlani said.
+screen to solve problems and offer guidance.
+                                                                               In the old system, doctors got a piece of paper with an
+Once the system is up and running and technically                              order on it for prescription or follow-up, signed it,
+stable in a given hospital — usually after three weeks                         and sent it over to be input by a nurse or a unit clerk.
+— the adoption phase begins. It is typical to have                             But in the new system, IT was taking five or six min-
+large variations in practice surface only after the go-                        utes to put in an order. “The physician is appropriately
+live phase, so Intermountain has a process in place to                         saying, ‘My day is getting longer,’” Badlani said.
+identify and standardize these variations and adjust
+workflow designs. Some physicians may not be using                             Pierce grimaced. But as he talked to Badlani, he
+the tools as they were designed to be used, or some                            realized that the main problem was managing expec-
+may be using the tools in a laborious way. The quick-                          tations and large-scale change management. While
+order page, for example, was redesigned as a result of                         some doctors do adapt quickly, most have a longer,
+analytics built on data regarding the first weeks of use.                      slower learning curve.
+
+The third stage — optimization — typically occurs                              The iCentra system gives Intermountain the analyt-
+over a longer time frame, from four months out to                              ics to leverage and support change. They just needed
+many years. This stage reflects ongoing efforts to im-                         to do a better job of explaining to doctors that yes, it
+prove the effectiveness and efficiency of the system.                          might take six minutes to input data, but once it was
+The time frame for this stage depends on the scope                             in the system, patients were getting their next steps
+of changes that need to be made to the system.                                 processed far more quickly. Errors in things like pre-
+                                                                               scriptions were also dropping significantly. “When
+                                                                               you say to a physician, ‘Look at what this does for
+                                                                               your patient,’ that’s really powerful,” Badlani says.
+
+12 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+After Pierce’s discussion with Badlani, he and iCentra   cess models, doctors won’t be able to participate
+leadership from Intermountain and Cerner began           in the shared-risk system that is coming to Inter-
+looking at the iCentra analytics on how physicians       mountain. He thinks that by 2018 this will represent
+were using the system, how much time they spent on       between 50–80% of how all Intermountain health
+documentation, and on order entry, looking for clues     care billing happens.
+to areas where usability needed to be improved.
+                                                         There will be cultural challenges that emerge from
+Pierce also found out that Intermountain had inad-       the use of the new system — beyond just getting
+vertently run a test in the rollout. All the groups got  doctors and nurses to adopt it. Primary care doctors
+the same basic training, but some groups went out        who need to refer patients to specialists will be able
+and organized practice sessions on their own time.       to see rankings of these specialists based on internal
+These groups as a rule handled the rollout much          data and make decisions accordingly. “I’m going to
+more effectively. So Badlani, along with the lead        be able to look at what their clinical outcomes are,
+iCentra physician executive Mark Briesacher and          what their costs are, what their patient satisfaction is,”
+the rest of the rollout team, started to develop a pre-  Wallace says. “That’s going to be totally transparent
+scribed training methodology involving follow-up         among the group. Our goal is to make that ultimately
+coaching sessions for the physicians after the initial   publically transparent.”
+classroom training and unit-based practice.
+                                                         Pierce knows that transparency will put even more
+Badlani and Briesacher are focused on supporting         pressure on data quality. The specialist ranking proj-
+the physicians and clinicians through this massive       ect is set to launch in mid-2015, right around when
+change. They are working with Pierce to use data in      Pierce will be evaluating how the most recent phase
+this process. “Our nurses and our doctors are believ-    of rollouts of iCentra has gone. Looking at the iCen-
+ers,” Pierce says. “They’re seeking far more data, and   tra launch should provide more data for analyzing
+they’re seeking far more opportunities to have the       ways to improve, so that each rollout in the future
+analytics, to prove better ways of providing care and    will go even more smoothly.
+lowering costs.”
+
+Next Steps                                               Reprint 57180.
+                                                         Copyright © Massachusetts Institute of Technology, 2015.
+Intermountain is not waiting for the industry to fully   All rights reserved.
+embrace value-based health care. In 2016, it will dive
+right in by launching a new insurance product that
+will make physicians and Intermountain jointly re-
+sponsible for health care costs. Doctors who reduce
+costs will earn more income. Wallace thinks this will
+make them even more focused on data. “If there’s a
+surgeon in a group who’s not following that care pro-
+cess model, are going to look at that surgeon and say,
+‘You start to follow the care process model, or you’re
+out.’ That’s a peer pressure model that can work well
+in some circumstances,” says Wallace.
+
+Wallace cautions that Intermountain will not force
+this on people, but that if they don’t adopt the pro-
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 13
+        CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+                                    REFERENCES
+                                        1.The complete provisions of the American Recovery and
+                                        Reinvestment Act of 2009 can be obtained here: http://
+                                        www.recovery.gov/arra/About/Pages/The_Act.aspx
+
+                                        2.The Centers for Medicare and Medicaid Services
+                                        (CMS) Webpage http://www.cms.gov/Regulations-and-
+                                        Guidance/Legislation/EHRIncentivePrograms/index.html
+                                        details incentives for adopting EHRs. A related page at
+                                        the Indian Health Service website, http://www.ihs.gov/
+                                        meaningfuluse/incentivesoverview/incentivesreduction/,
+                                        outlines some of the penalties faced by organizations that
+                                        don’t effectively use EHRs.
+
+                                        3. K. Stewart, “Father of Medical Informatics, Utah’s
+                                        Homer Warner Dies,” Salt LakeTribune, Dec. 3, 2012,
+                                        http://www.sltrib.com/sltrib/news/55391911-78/
+                                        warner-medical-homer-utah.html.csp; P. Owens-Liston,
+                                        “Homer Warner, Founder of Biomedical Informat-
+                                        ics,” University of Utah Healthcare HealthFeed, Nov.
+                                        30, 2012, http://healthcare.utah.edu/healthfeed/
+                                        postings/2012/11/113012homeobit.php.
+
+                                        4. Intermountain Healthcare: About Us — Medical Infor-
+                                        matics: Our History. http://intermountainhealthcare.org/
+                                        qualityandresearch/informatics/about/Pages/history.aspx
+                                        (from video), accessed April 4, 2015.
+
+                                        5. K.W. Jones, A.S. Cain, J.H. Mitchell, R.C. Millar, H.L.
+                                        Rimmasch,T.K. French et al., “Hyperglycemia Predicts
+                                        Mortality After CABG: Postoperative Hyperglycemia
+                                        Predicts Dramatic Increases in Mortality After Coronary
+                                        Artery Bypass Graft Surgery,” Journal of Diabetes and its
+                                        Complications 22, no. 6 (November–December 2008):
+                                        365–370. http://www.sciencedirect.com/science/article/
+                                        pii/S105687270700061X
+
+                                        6. J.B. Muhlestein, D.L. Lappé, J.A.C. Lima, B.D. Rosen,
+                                        H.T. May, S. Knight, et al., “Effect of Screening for Coro-
+                                        nary Artery Disease Using CT Angiography on Mortality
+                                        and Cardiac Events in High-Risk Patients With Diabetes:
+                                        The FACTOR-64 Randomized ClinicalTrial,” JAMA 312, no.
+                                        21 (December 3, 2014): 2234–2243. http://jama.jamanet-
+                                        work.com/article.aspx?doi=10.1001/jama.2014.15825
+
+                                        7. R.J. Gibbons, “Optimal MedicalTherapy vs CT Angiogra-
+                                        phy Screening for Patients With Diabetes,” JAMA 312, no.
+                                        21 (December 3, 2014), 2219–2220. http://jama.jamanet-
+                                        work.com/article.aspx?doi=10.1001/jama.2014.15958
+
+                                        8. According to research published by Material Handling &
+                                        Logstics: http://mhlnews.com/global-supply-chain/health-
+                                        care-companies-using-supply-chain-stay-competitive
+
+                                        9. Organisation for Economic Co-operation and Develop-
+                                        ment. “OECD Health Statistics 2014: How does the United
+                                        States compare?” http://www.oecd.org/unitedstates/
+                                        Briefing-Note-UNITED-STATES-2014.pdf.
+
+14 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+‘NO PAIN, NO GAIN’ IN THE TRANSITION TO DATA-DRIVEN HEALTH CARE
+
+Commentary by Sam Ransbotham
+
+The heart of the latest analytics initiative at         for many years, with many success stories that il-
+        Intermountain Healthcare is the implemen-       lustrate how analytics can transform patient care.
+        tation of a new electronic health records
+(EHR) system. As the case study on the implemen-        Intermountain’s approach to the role and limita-
+tation shows, despite Intermountain’s history of        tions of technology is savvy. It positions tools as
+success with analytics, even the best system im-        helping “track things that humans might miss” and
+plementations can be difficult pills to swallow.They    allowing clinicians to “spend their mental energy
+produce a lot of extra work for everyone, and they      focusing on what is unique about the patient.” This
+carry considerable risk and unexpected difficulties.    mindset helps with setting realistic expectations
+For those learning new systems, the suffering as        about what technology can and cannot do, and it re-
+they’re in the early stages of implementation is        duces resentment of new technology.The key with
+concrete and visceral; the promised benefits can        analytics is to blend the strengths of technology with
+be abstract and far less certain.                       the strengths of people. Neither alone is sufficient.
+
+Yet despite the considerable effort and potential for   The organization’s embrace of transparency is par-
+difficulties, many aspects of Intermountain’s new       ticularly notable. By providing access to data and
+EHR implementation are notable and laudable.            being forthcoming about its limitations, Intermoun-
+                                                        tain encourages a culture that works to improve
+As it rolled out the new EHR system, Intermountain      data quality. As errors or shortcomings are found,
+limited the number of hospitals and clinics involved    the feedback improves processes. While conceptu-
+in the initial deployment — to 2 of its 22 hospitals    ally easy for many organizations to avow, embracing
+and 24 of its 185 clinics. These numbers are small      feedback is difficult to do in practice. Intermountain
+enough to keep the project scope manageable, but        demonstrates the cumulative benefits that result
+at the same time, large enough to create opportuni-     from building what it calls “the integrity of the
+ties to benefit from information exchange.              data” in a way that engenders a “level of trust from
+                                                        the doctors.”
+Furthermore, Intermountain has positioned the
+new EHR system as part of an inclusive analytics        Intermountain shows signs of analytical maturity
+initiative with everyone working together on some-      throughout the case study. We see senior-level
+thing that, while difficult, has benefits for both      leadership on analytics, a high value being placed on
+patients and the organization itself. Too often, new    data in people’s day-to-day work, and a widespread
+initiatives come across with users feeling forced       analytics culture — all of which are associated with
+to use a new system by management or IT. The            analytical maturity.
+prior cardiovascular, endocrinology, and surgery
+examples each show that Intermountain uses col-         An important feature of analytical maturity is that or-
+laborative approaches to benefiting patients rather     ganizations embed analytics in processes rather
+than fiat-based mandates.                               than simply regard analytics as a set of beneficial,
+                                                        but ad hoc, projects. A process approach is clear in
+Intermountain is building on a strong foundation:       the feedback loops for data quality, common
+Its history of prior analytics innovation helps         languages for data “across departments and hospi-
+on both the technological and organiztional             tals,” and structured processes for analytical
+fronts. Technologically, it has a solid infrastructure  decision making (e.g., operating room clothing).
+and technical experience that help reduce project       Analytics teams have defined roles (data analysts,
+uncertainty. Even an abandoned 2012 overhaul pro-       data managers, and data architects); equally
+vides a basis for Intermountain technical staff to      important, people have career paths and opportuni-
+learn from and perhaps build on. Organizationally,      ties to progress along within the organization.
+executives and staff have had an analytics culture
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 15
+CASE STUDY WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+
+When all factors are taken together — an analytics                             plex systems or pervasive changes to continue to
+history, savvy blending of technology and people,                              extract value from data. As a relatively advanced
+transparency about data sources and quality,                                   analytical organization, Intermountain’s basic
+incremental implementation, non-adversarial                                    opportunities for value from analytics may have al-
+culture, analytical maturity, and a process focus                              ready been utilized.
+— Intermountain has created an enviable set of
+achievements around data that bodes well for                                   With increasing complexity comes increased diffi-
+its future.                                                                    culty of showing value from data, and from the case
+                                                                               study we see that that is clearly true of Intermoun-
+But of course, no analytics initiative will be com-                            tain’s new EHR system. Drawing conclusions from
+pletely smooth, particularly when it involves new                              data is rarely straightforward, particularly in con-
+computer systems.                                                              texts as complex as health care. For example, it is
+                                                                               wonderful to use the opportunity to collect follow up
+Since Intermountain’s new EHR system replaces                                  data if an orthopedics patient later “hits our system,
+another, there is a real danger of “second system                              wherever it is.” A holistic overview is a great benefit
+effect.” With the first system, people are often just                          of an EHR. However, what about patients who don’t
+happy to get it to work. But a replacement system                              hit the system again? It will be important to consider
+must do more than the first (otherwise, why                                    this source of potential bias in reaching conclusions
+replace?), and those building it tend to try to accom-                         about the strengths or shortcomings of the initial
+plish everything that was left out of the first system                         orthopedic treatment.
+and to correct all of the earlier shortcomings. As a
+result, second systems can be what Frederick P.                                Or, in another example, consider the inadvertent
+Brooks, Jr. calls “the most dangerous system.”                                 test that took place during rollout. This is far from
+                                                                               a true randomized test. There is something fun-
+Hearing that doctors were expecting to be “fac-                                damentally different about a group of people who
+ile in a matter of two weeks” must have been                                   organize their own practice sessions than groups
+insanely frustrating to the project team. Despite                              that do not; causal conclusions will require analy-
+what the case study calls a “standard three-phase                              sis of the subsequent follow-up coaching sessions,
+approach” to training that included “classroom                                 among other considerations. Difficult questions
+training, one-on-one coaching sessions, group                                  like these are complex to analyze, but simultane-
+simulations, super user experts, physician coaches,                            ously provide opportunity for analytically mature
+and a telephone support help desk,” my guess is                                organizations to derive value from analytics. Data
+that Intermountain’s chief data officer Lee Pierce                             from the new EHR system will support this com-
+was ready to yank his hair out in the Las Vegas air-                           plex analysis analysis, but gathering the data is
+port meeting with a physician who had heard “we                                only the first of many steps.
+would be up and running and as efficient as before
+in just a couple of weeks.” Where did expectations                             Across the United States, both patients and
+go astray?                                                                     physicians express legitimate concerns about EHR
+                                                                               systems. Automation and the data that come with
+Analytics initiatives bring challenges that differ de-                         it are not free. Getting these platforms in place
+pending on the organization’s analytical maturity.                             is costly; they impose a considerable “time tax”
+Beginners struggle to get basic infrastructure and                             on people throughout the system. Physicians will
+processes established and to get the first, crucial                            spend more time using a system than writing a note
+successes that are needed to showcase the sys-                                 by hand. Nurses will spend more time documenting.
+tem’s value (and provide a foundation for continued
+building). Advanced organizations, on the other                                This is true of most, if not all, changes. When orga-
+hand, may find they must undertake more com-                                   nizations replaced typing pools with distributed
+
+16 MIT SLOAN MANAGEMENT REVIEW • WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA
+word processing, managers spent more time typing
+than they had before.Yet going back to typing pools
+seems absurd now. I expect many of the changes
+induced by EHR will seem similarly absurd to return
+to. And the first generations of these systems will be
+clunkier than later generations. Unfortunately, these
+clunkier steps are largely inevitable on the path to-
+ward benefits from EHR systems and analytics.
+
+Intermountain provides a nice example of many suc-
+cesses from embracing analytics, both historically
+and with their current initiatives. But even with this
+rich history, it will continue to have to work through
+many issues when it comes to deriving value from
+data. From that perspective, Intermountain’s story
+should be a cautionary tale for those looking to em-
+ulate it. Less analytically mature organizations will
+find it tough to have only the difficulties Intermoun-
+tain has had and can realistically expect more.
+
+Despite the effort required, organizations every-
+where (in health care and beyond) need to improve
+their ability to build value through data.
+
+Sam Ransbotham is an associate professor of
+information systems at the Carroll School of
+Managem­ ent at Boston College and the MIT Sloan
+Management Review guest editor for the Data and
+Analytics Big Idea Initiative.
+
+He can be reached at sam.ransbotham@bc.edu
+and onTwitter at @ransbotham.
+
+ WHEN HEALTH CARE GETS A HEALTHY DOSE OF DATA • MIT SLOAN MANAGEMENT REVIEW 17
+PDFs ■ Reprints ■ Permission to Copy ■ Back Issues
+Articles published in MIT Sloan Management Review are
+copyrighted by the Massachusetts Institute ofTechnology
+unless otherwise specified at the end of an article.
+MIT Sloan Management Review articles, permissions,
+and back issues can be purchased on our website:
+sloanreview.mit.edu or you may order through our
+Business Service Center (9 a.m. - 5 p.m. ET) at the phone
+numbers listed below. Paper reprints are available in
+quantities of 250 or more.
+To reproduce or transmit one or more MIT Sloan
+Management Review articles by electronic or
+mechanical means (including photocopying or archiving
+in any information storage or retrieval system) requires
+written permission.
+To request permission, use our website:
+sloanreview.mit.edu
+or
+Email: smr-help@mit.edu
+Call (US and International): 617-253-7170
+Fax: 617-258-9739
+Posting of full-text MIT SMR articles on publicly
+accessible Internet sites is prohibited. To obtain
+permission to post articles on secure and/or password-
+protected intranet sites, email your request to smr-
+help@mit.edu.
+
